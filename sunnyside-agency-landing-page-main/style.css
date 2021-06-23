@@ -12,19 +12,10 @@
 
 /* Header */
 header {
-  background: url(./images/desktop/image-header.jpg);
+  background: url(./images/mobile/image-header.jpg);
   height: 100vh;
   background-position: center;
   background-size: cover;
-}
-
-@media (max-width: 768px) {
-  header {
-    background: url(./images/mobile/image-header.jpg);
-    height: 100vh;
-    background-position: center;
-    background-size: cover;
-  }
 }
 
 nav {
@@ -98,7 +89,7 @@ nav > ul > li > a:hover {
 .hero-section h1 {
   font-family: 'Fraunces', serif;
   font-size: 2.4rem;
-  margin: 1.3em 0 1.4em 0;
+  margin: 3.3em 0 2.9em 0;
   color: #fff;
 }
 
